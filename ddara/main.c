@@ -4,8 +4,9 @@
 //
 //  Created by 박영찬 on 2021/01/31.
 //
-
+/*
 #include <stdio.h>
+
 
 void plus(int);
 
@@ -29,3 +30,4 @@ void plus(int n)
     
     printf("%d의 자릿수 합은: %d 입니다.\n",c,result);
 }
+*/
