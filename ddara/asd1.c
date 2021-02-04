@@ -11,19 +11,10 @@ void sum(int);
 
 int main(int argc, const char * argv[])
 {
-    sum(421);
-    return 1;
-}
-
-void sum(int na)
-{
-    int sum=0;
-    
-    while(na>0)
+    for(int i =1; i<6;i++)
     {
-        sum += na%10;
-        na = na/10;
+        for(int p=6; p>i;p--)
+            printf("*");
+        printf("\n");
     }
-    
-    printf("%d 입니다.\n" , sum);
 }
