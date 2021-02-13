@@ -4,7 +4,7 @@
 //
 //  Created by 박영찬 on 2021/02/01.
 //
-
+/*
 #include <stdio.h>
 
 void spira(int);
@@ -45,3 +45,4 @@ void nrpira(int n)
         putchar('\n');
     }
 }
+*/
