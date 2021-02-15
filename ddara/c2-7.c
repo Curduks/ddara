@@ -4,7 +4,7 @@
 //
 //  Created by 박영찬 on 2021/02/13.
 //
-
+/*
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -54,4 +54,4 @@ void ary_reverse(int a[], int n)
     }
         
 }
-
+*/
