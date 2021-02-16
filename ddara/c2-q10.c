@@ -4,7 +4,7 @@
 //
 //  Created by 박영찬 on 2021/02/15.
 //
-
+/*
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -51,3 +51,4 @@ void shuffle(int a[] , int n)
     }
     
 }
+*/
