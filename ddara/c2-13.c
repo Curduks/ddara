@@ -4,7 +4,7 @@
 //
 //  Created by 박영찬 on 2021/02/16.
 //
-
+/*
 #include <stdio.h>
 #define VMAX 21
 
@@ -23,8 +23,8 @@ int main(void)
     int i;
     PhysCheck x[] =
     {
-        {"박현규", 162, 0.3},
-        {"함진아", 173, 0.7},
+        {"박현규", 162, 0.1},
+        {"함진아", 173, 0.1},
         {"최윤미", 175, 2.0},
         {"총연의", 171, 1.5},
         {"이수진", 168, 0.4},
@@ -42,7 +42,13 @@ int main(void)
     dist_vision(x, nx, vdist);
     printf("\n 시력 분포\n");
     for(i =0; i< VMAX ; i++)
-        printf("%3.1f ~ : %2d명\n", i/10.0 , vdist[i]);
+    {
+        printf("%3.1f ~ : ", i/10.0);
+        for(int j = 0 ; j < vdist[i] ; j++)
+            printf("*");
+        printf("\n");
+    }
+        
     
     return 0;
 }
@@ -68,3 +74,4 @@ void dist_vision(const PhysCheck dat[] , int n , int dist[])
             dist[(int)(dat[i].vision * 10)]++;
 }
 
+*/
