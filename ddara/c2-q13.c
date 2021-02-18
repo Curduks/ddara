@@ -4,7 +4,7 @@
 //
 //  Created by 박영찬 on 2021/02/17.
 //
-
+/*
 #include <stdio.h>
 
 typedef struct
@@ -110,3 +110,4 @@ void Print(Date x)
     }
     printf("%04d년 %02d월 %02d일(%s)\n" , x.y , x.m , x.d , ws[(y+y / 4-y / 100 +y / 400 + (13*m+8)/5 +d) % 7]);
 }
+*/
