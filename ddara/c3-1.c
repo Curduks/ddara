@@ -4,7 +4,7 @@
 //
 //  Created by 박영찬 on 2021/02/19.
 //
-
+/*
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -48,3 +48,4 @@ int search(const int a[], int n, int key)
         i++;
     }
 }
+*/
