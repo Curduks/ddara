@@ -4,7 +4,7 @@
 //
 //  Created by 박영찬 on 2021/02/20.
 //
-
+/*
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -68,3 +68,4 @@ int search(int a[],int n, int key)
     
     return -1;
 }
+*/

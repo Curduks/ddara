@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B156592525EA622B007EF35D /* c3-q7.c in Sources */ = {isa = PBXBuildFile; fileRef = B156592425EA622B007EF35D /* c3-q7.c */; };
+		B156592925EA65A9007EF35D /* IntStack.c in Sources */ = {isa = PBXBuildFile; fileRef = B156592825EA65A9007EF35D /* IntStack.c */; };
+		B156592C25EA6C2A007EF35D /* c4-3.c in Sources */ = {isa = PBXBuildFile; fileRef = B156592B25EA6C2A007EF35D /* c4-3.c */; };
 		B16D2FE225D15B790002A4A0 /* c2-1.c in Sources */ = {isa = PBXBuildFile; fileRef = B16D2FE125D15B790002A4A0 /* c2-1.c */; };
 		B16D2FE625D7EB2D0002A4A0 /* c2-5.c in Sources */ = {isa = PBXBuildFile; fileRef = B16D2FE525D7EB2D0002A4A0 /* c2-5.c */; };
 		B16D2FE925D7F0790002A4A0 /* c2-7.c in Sources */ = {isa = PBXBuildFile; fileRef = B16D2FE825D7F0790002A4A0 /* c2-7.c */; };
@@ -25,6 +28,13 @@
 		B1F1A59425E1253D00A745D2 /* c3-3.c in Sources */ = {isa = PBXBuildFile; fileRef = B1F1A59325E1253D00A745D2 /* c3-3.c */; };
 		B1F1A59725E12A5D00A745D2 /* c3-4.c in Sources */ = {isa = PBXBuildFile; fileRef = B1F1A59625E12A5D00A745D2 /* c3-4.c */; };
 		B1F1A59A25E13C0900A745D2 /* c3-q2.c in Sources */ = {isa = PBXBuildFile; fileRef = B1F1A59925E13C0900A745D2 /* c3-q2.c */; };
+		B1F1A59D25E7CA8200A745D2 /* c3-q3.c in Sources */ = {isa = PBXBuildFile; fileRef = B1F1A59C25E7CA8200A745D2 /* c3-q3.c */; };
+		B1F1A5A025E7D52400A745D2 /* c3-q5.c in Sources */ = {isa = PBXBuildFile; fileRef = B1F1A59F25E7D52400A745D2 /* c3-q5.c */; };
+		B1F1A5A325E7E7DF00A745D2 /* c3-5.c in Sources */ = {isa = PBXBuildFile; fileRef = B1F1A5A225E7E7DF00A745D2 /* c3-5.c */; };
+		B1F1A5A625E937CD00A745D2 /* c3-6.c in Sources */ = {isa = PBXBuildFile; fileRef = B1F1A5A525E937CD00A745D2 /* c3-6.c */; };
+		B1F1A5A925E93C6700A745D2 /* c3-7.c in Sources */ = {isa = PBXBuildFile; fileRef = B1F1A5A825E93C6700A745D2 /* c3-7.c */; };
+		B1F1A5AC25E93DD700A745D2 /* c3-8.c in Sources */ = {isa = PBXBuildFile; fileRef = B1F1A5AB25E93DD700A745D2 /* c3-8.c */; };
+		B1F1A5B025E944E600A745D2 /* c3-q6.c in Sources */ = {isa = PBXBuildFile; fileRef = B1F1A5AF25E944E600A745D2 /* c3-q6.c */; };
 		B1F61F1A25C692060065BFDD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B1F61F1925C692060065BFDD /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +51,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B156592425EA622B007EF35D /* c3-q7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "c3-q7.c"; sourceTree = "<group>"; };
+		B156592725EA65A9007EF35D /* IntStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntStack.h; sourceTree = "<group>"; };
+		B156592825EA65A9007EF35D /* IntStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = IntStack.c; sourceTree = "<group>"; };
+		B156592B25EA6C2A007EF35D /* c4-3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "c4-3.c"; sourceTree = "<group>"; };
 		B16D2FE125D15B790002A4A0 /* c2-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "c2-1.c"; sourceTree = "<group>"; };
 		B16D2FE525D7EB2D0002A4A0 /* c2-5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "c2-5.c"; sourceTree = "<group>"; };
 		B16D2FE825D7F0790002A4A0 /* c2-7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "c2-7.c"; sourceTree = "<group>"; };
@@ -59,6 +73,13 @@
 		B1F1A59325E1253D00A745D2 /* c3-3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "c3-3.c"; sourceTree = "<group>"; };
 		B1F1A59625E12A5D00A745D2 /* c3-4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "c3-4.c"; sourceTree = "<group>"; };
 		B1F1A59925E13C0900A745D2 /* c3-q2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "c3-q2.c"; sourceTree = "<group>"; };
+		B1F1A59C25E7CA8200A745D2 /* c3-q3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "c3-q3.c"; sourceTree = "<group>"; };
+		B1F1A59F25E7D52400A745D2 /* c3-q5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "c3-q5.c"; sourceTree = "<group>"; };
+		B1F1A5A225E7E7DF00A745D2 /* c3-5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "c3-5.c"; sourceTree = "<group>"; };
+		B1F1A5A525E937CD00A745D2 /* c3-6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "c3-6.c"; sourceTree = "<group>"; };
+		B1F1A5A825E93C6700A745D2 /* c3-7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "c3-7.c"; sourceTree = "<group>"; };
+		B1F1A5AB25E93DD700A745D2 /* c3-8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "c3-8.c"; sourceTree = "<group>"; };
+		B1F1A5AF25E944E600A745D2 /* c3-q6.c */ = {isa = PBXFileReference; fileEncoding = 2147484706; lastKnownFileType = sourcecode.c.c; path = "c3-q6.c"; sourceTree = "<group>"; };
 		B1F61F1625C692060065BFDD /* ddara */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ddara; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F61F1925C692060065BFDD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +133,17 @@
 				B1F1A59325E1253D00A745D2 /* c3-3.c */,
 				B1F1A59625E12A5D00A745D2 /* c3-4.c */,
 				B1F1A59925E13C0900A745D2 /* c3-q2.c */,
+				B1F1A59C25E7CA8200A745D2 /* c3-q3.c */,
+				B1F1A59F25E7D52400A745D2 /* c3-q5.c */,
+				B1F1A5A225E7E7DF00A745D2 /* c3-5.c */,
+				B1F1A5A525E937CD00A745D2 /* c3-6.c */,
+				B1F1A5A825E93C6700A745D2 /* c3-7.c */,
+				B1F1A5AB25E93DD700A745D2 /* c3-8.c */,
+				B1F1A5AF25E944E600A745D2 /* c3-q6.c */,
+				B156592425EA622B007EF35D /* c3-q7.c */,
+				B156592725EA65A9007EF35D /* IntStack.h */,
+				B156592825EA65A9007EF35D /* IntStack.c */,
+				B156592B25EA6C2A007EF35D /* c4-3.c */,
 			);
 			path = ddara;
 			sourceTree = "<group>";
@@ -150,12 +182,13 @@
 				};
 			};
 			buildConfigurationList = B1F61F1125C692060065BFDD /* Build configuration list for PBXProject "ddara" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = B1F61F0D25C692060065BFDD;
 			productRefGroup = B1F61F1725C692060065BFDD /* Products */;
@@ -172,21 +205,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1F1A5A025E7D52400A745D2 /* c3-q5.c in Sources */,
 				B1F1A58225DC02AC00A745D2 /* c2-11.c in Sources */,
 				B16D2FE925D7F0790002A4A0 /* c2-7.c in Sources */,
 				B1DCA1CB25C8246E00090214 /* asd1.c in Sources */,
+				B1F1A59D25E7CA8200A745D2 /* c3-q3.c in Sources */,
 				B1F1A59425E1253D00A745D2 /* c3-3.c in Sources */,
 				B16D2FE225D15B790002A4A0 /* c2-1.c in Sources */,
 				B1F1A57C25DABE9700A745D2 /* c2-q10.c in Sources */,
 				B1F1A57925DAB98E00A745D2 /* c2-q9.c in Sources */,
+				B1F1A5A925E93C6700A745D2 /* c3-7.c in Sources */,
+				B1F1A5AC25E93DD700A745D2 /* c3-8.c in Sources */,
 				B1F1A57625DAAAE400A745D2 /* c2-q8.c in Sources */,
 				B1F1A58525DC080E00A745D2 /* c2-12.c in Sources */,
 				B16D2FEC25D7F7D40002A4A0 /* c2-8.c in Sources */,
 				B1F1A57F25DBF6FF00A745D2 /* c2-9.c in Sources */,
+				B1F1A5A325E7E7DF00A745D2 /* c3-5.c in Sources */,
 				B16D2FE625D7EB2D0002A4A0 /* c2-5.c in Sources */,
 				B1F1A59725E12A5D00A745D2 /* c3-4.c in Sources */,
+				B1F1A5B025E944E600A745D2 /* c3-q6.c in Sources */,
+				B1F1A5A625E937CD00A745D2 /* c3-6.c in Sources */,
+				B156592925EA65A9007EF35D /* IntStack.c in Sources */,
 				B1F1A59125DEBEFA00A745D2 /* c3-1.c in Sources */,
+				B156592525EA622B007EF35D /* c3-q7.c in Sources */,
 				B1F61F1A25C692060065BFDD /* main.c in Sources */,
+				B156592C25EA6C2A007EF35D /* c4-3.c in Sources */,
 				B1F1A58B25DD591D00A745D2 /* c2-q13.c in Sources */,
 				B1F1A58825DC0D0000A745D2 /* c2-13.c in Sources */,
 				B1F1A59A25E13C0900A745D2 /* c3-q2.c in Sources */,
